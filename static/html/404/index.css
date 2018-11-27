@@ -1,0 +1,83 @@
+/*
+ * @Author: guangwei.bao
+ * @Date: 2018-11-06 14:44:49
+ * @Last Modified by: guangwei.bao
+ * @Last Modified time: 2018-11-27 15:56:39
+ * @Describe: 服务器首页样式
+ */
+body,
+html {
+	width: 100%;
+	height: 100%;
+	background: #f0f2f5;
+}
+
+body {
+	margin: 0;
+	font-family: "Chinese Quote", -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB",
+		"Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+		"Segoe UI Symbol";
+	font-size: 14px;
+	font-variant: tabular-nums;
+	line-height: 1.5;
+	color: rgba(0, 0, 0, 0.65);
+}
+/* error_404 */
+#error_404 {
+	width: 100%;
+	height: 90%;
+	background: #f0f2f5;
+	position: relative;
+	padding-top: 10%;
+}
+
+#error_404 .text {
+	text-align: center;
+}
+
+#error_404 .font_1 {
+	font-size: 4.375rem;
+	font-weight: 800;
+}
+
+#error_404 .font_2 {
+	font-size: 1.25rem;
+	line-height: 1.75rem;
+	color: rgba(0, 0, 0, 0.45);
+}
+
+#error_404 .button {
+	color: #fff;
+	background-color: #1890ff;
+	cursor: pointer;
+	border: 1px solid transparent;
+	padding: 0 15px;
+	font-size: 14px;
+	border-radius: 4px;
+	height: 32px;
+	width: 88px;
+	margin: 0 auto;
+	line-height: 32px;
+}
+/* pc */
+
+@media screen and (min-width: 768px) {
+	#error_404 .box {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+}
+
+/* app */
+@media screen and (max-width: 768px) {
+	#error_404 .box {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	#error_404 .box img {
+		width: 80%;
+	}
+}
