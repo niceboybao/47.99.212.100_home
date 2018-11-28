@@ -2,7 +2,7 @@
  * @Author: guangwei.bao
  * @Date: 2018-11-06 14:44:35
  * @Last Modified by: guangwei.bao
- * @Last Modified time: 2018-11-27 20:21:26
+ * @Last Modified time: 2018-11-28 16:22:08
  * @Describe: 服务器首页脚本
  * 根据掘金-我的主页做一个服务器首页（app）
  */
@@ -42,7 +42,7 @@ function handleScroll(e) {
 	}, 500);
 }
 // requestAnimationFrame
-function backToTop_() {
+function backToTop() {
 	var height = document.getElementsByClassName('container')[0].scrollTop;
 	if (height > 0) {
 		window.requestAnimationFrame(backToTop);
@@ -51,7 +51,7 @@ function backToTop_() {
 	}
 }
 // setTimeout setInterval
-function backToTop() {
+function backToTop_() {
 	// var time = setTimeout(function() {
 	// 	var height = document.getElementsByClassName('container')[0].scrollTop;
 	// 	// 递归操作
