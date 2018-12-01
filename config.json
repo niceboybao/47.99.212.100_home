@@ -1,0 +1,15 @@
+{
+    "input": {
+        "src": "src/**/*",
+        "html": "src/**/*.html",
+        "css": "src/**/*.css",
+        "scripts": "src/**/*.js",
+        "images": "src/**/*.{png,jpg,gif,ico}"
+    },
+    "output": {
+        "dist": "www",
+        "html": "www/**/*.html",
+        "css": "www/**/*.css",
+        "scripts": "www/**/*.js"
+    }
+}
