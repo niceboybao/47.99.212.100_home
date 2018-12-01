@@ -2,26 +2,13 @@
  * @Author: guangwei.bao
  * @Date: 2018-11-06 14:44:49
  * @Last Modified by: guangwei.bao
- * @Last Modified time: 2018-11-27 15:56:39
+ * @Last Modified time: 2018-12-01 15:43:13
  * @Describe: 服务器首页样式
  */
-body,
 html {
-	width: 100%;
-	height: 100%;
 	background: #f0f2f5;
 }
 
-body {
-	margin: 0;
-	font-family: "Chinese Quote", -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB",
-		"Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
-		"Segoe UI Symbol";
-	font-size: 14px;
-	font-variant: tabular-nums;
-	line-height: 1.5;
-	color: rgba(0, 0, 0, 0.65);
-}
 /* error_404 */
 #error_404 {
 	width: 100%;
