@@ -7,15 +7,11 @@
 		"clean": "gulp clean",
 		"build-dev": "gulp build-dev",
 		"build-prod": "gulp build-prod",
-		"start-dev": "gulp start-dev",
-		"start-prod": "gulp start-prod"
+		"start-dev": "gulp clean && gulp start-dev",
+		"start-prod": "gulp clean && gulp start-prod"
 	},
 	"author": "guangwei.bao",
-	"keywords": [
-		"gulp",
-		"stream",
-		"jenkins"
-	],
+	"keywords": [ "gulp", "stream", "jenkins" ],
 	"repository": "https://github.com/niceboybao/47.99.212.100_home",
 	"license": "MIT",
 	"devDependencies": {
@@ -27,14 +23,18 @@
 		"gulp-clean-css": "^3.9.0",
 		"gulp-concat": "^2.6.1",
 		"gulp-htmlmin": "^3.0.0",
+		"gulp-if": "^2.0.2",
 		"gulp-imagemin": "^4.1.0",
 		"gulp-minify-css": "^1.2.4",
+		"gulp-obfuscate": "^0.2.9",
 		"gulp-plumber": "^1.2.1",
 		"gulp-processhtml": "^1.2.0",
 		"gulp-rename": "^1.2.2",
+		"gulp-rev": "^9.0.0",
+		"gulp-rev-collector": "^1.3.1",
 		"gulp-uglify": "^3.0.0",
+		"gulp-util": "^3.0.8",
 		"gulp-webserver": "^0.9.1",
-		"gulp-zip": "^4.0.0",
 		"imagemin-gifsicle": "^6.0.1",
 		"imagemin-jpegtran": "^6.0.0",
 		"imagemin-optipng": "^6.0.0",

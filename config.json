@@ -4,12 +4,9 @@
         "html": "src/**/*.html",
         "css": "src/**/*.css",
         "scripts": "src/**/*.js",
-        "images": "src/**/*.{png,jpg,gif,ico}"
+        "images": "src/**/*.{png,jpg,gif,ico,jpeg,svg,webp}"
     },
     "output": {
-        "dist": "www",
-        "html": "www/**/*.html",
-        "css": "www/**/*.css",
-        "scripts": "www/**/*.js"
+        "dist": "www"
     }
 }
