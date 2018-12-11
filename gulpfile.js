@@ -2,12 +2,13 @@
  * @Author: guangwei.bao 
  * @Date: 2018-12-01 17:00:26 
  * @Last Modified by: guangwei.bao
- * @Last Modified time: 2018-12-04 11:11:26
+ * @Last Modified time: 2018-12-04 14:26:34
  * @Describe: gulp打包配置
  */
 'use strict';
 
 var gulp = require('gulp');
+// 清空dist
 var clean = require('gulp-clean');
 //js压缩插件
 var uglify = require('gulp-uglify');
