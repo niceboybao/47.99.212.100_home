@@ -1,0 +1,1 @@
+alert(navigator.userAgent.toLowerCase());
