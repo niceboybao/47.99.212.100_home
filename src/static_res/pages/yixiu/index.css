@@ -1,0 +1,47 @@
+/*
+ * @Author: guangwei.bao 
+ * @Date: 2018-12-01 14:26:44 
+ * @Last Modified by: guangwei.bao
+ * @Last Modified time: 2018-12-01 15:50:20
+ * @Describe: 无
+ */
+
+#yixiu {
+	display: flex;
+	flex-direction: column;
+	width: 94%;
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+#yixiu .title {
+	font-size: 30px;
+	font-weight: 700;
+	text-align: center;
+	/* height: 40px; */
+	padding-bottom: 10px;
+	color: #666;
+}
+
+#yixiu .date{
+	font-size: 15px;
+    color: #909090;
+    height: 40px;
+}
+
+#yixiu .note {
+	margin: 10px 0;
+	padding: 0 1em;
+	color: #666;
+	border-left: 4px solid #ddd;
+}
+
+#yixiu img {
+	width: 100%;
+	border-radius: 5px;
+	/* box-shadow: -5px 5px #f5f5f5; */
+}
+#yixiu h4 span {
+	text-decoration: underline;
+	color: #33b0fc;
+}
